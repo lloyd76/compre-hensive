@@ -347,8 +347,11 @@
     <!-- Feature End -->
 
     <!-- Quote Start -->
-<div class="container-xxl py-4">
-    <div class="container py-4">
+<div class="container-xxl py-4 position-relative">
+    <!-- Background Image Overlay -->
+    <div class="bg-overlay position-absolute top-0 left-0 w-100 h-100" style="background-image: url('img/T2 2.jpg'); background-size: cover; background-position: center; opacity: 0.1;"></div>
+
+    <div class="container py-4 position-relative" style="z-index: 1;">
         <div class="row g-5 align-items-center">
             <!-- Left Section: Contact Information -->
             <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
@@ -363,13 +366,11 @@
                     </div>
                 </div>
             </div>
-            <!-- Right Section: Form -->
-            <div class="col-lg-7 position-relative wow fadeIn" data-wow-delay="0.5s">
-                <!-- Background Image Overlay -->
-                <div class="bg-overlay position-absolute top-0 left-0 w-100 h-100" style="background-image: url('img/T2 2.jpg'); background-size: cover; background-position: center; opacity: 0.2;"></div>
 
+            <!-- Right Section: Form -->
+            <div class="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
                 <!-- Form Content -->
-                <div class="bg-light text-center p-5 position-relative" style="z-index: 1;">
+                <div class="bg-light text-center p-5" style="position: relative; z-index: 2; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
                     <form>
                         <div class="row g-3">
                             <div class="col-12 col-sm-6">
