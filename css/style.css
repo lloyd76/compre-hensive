@@ -474,3 +474,26 @@
 .footer .copyright a {
     color: var(--light);
 }
+
+/* Add styles for background overlay and other elements */
+.bg-overlay {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.1; /* Adjust for more or less visibility */
+}
+
+.bg-light {
+    border-radius: 10px; /* Rounded corners for the form box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Customize button style */
+.btn-primary {
+    background-color: #ff6600; /* Custom primary color */
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e65500; /* Darker hover effect */
+}
