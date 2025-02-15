@@ -484,7 +484,7 @@
     height: 100%;
     background-size: cover;
     background-position: center;
-    opacity: 0.5; /* Adjust for more or less visibility */
+    opacity: 0.9; /* Adjust for more or less visibility */
     z-index: -1;
 }
 
