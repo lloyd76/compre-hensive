@@ -484,7 +484,7 @@
     height: 100%;
     background-size: cover;
     background-position: center;
-    opacity: 0.1; /* Adjust for more or less visibility */
+    opacity: 0.5; /* Adjust for more or less visibility */
     z-index: -1;
 }
 
@@ -492,15 +492,4 @@
 .bg-light {
     border-radius: 10px; /* Rounded corners for the form box */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-}
-
-/* Customize button style */
-.btn-primary {
-    background-color: #ff6600; /* Custom primary color */
-    border: none;
-    transition: background-color 0.3s ease;
-}
-
-.btn-primary:hover {
-    background-color: #e65500; /* Darker hover effect */
 }
