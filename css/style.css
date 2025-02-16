@@ -479,3 +479,35 @@
 .bg-light {
     border-radius: 10px; /* Rounded corners for the form box */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth *
+
+
+/* Custom CSS for Boxes */
+.service-item {
+    background: #FFFFFF;
+    border: 1px solid #F1F1F1;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-item .label {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.service-item p {
+    font-size: 1rem;
+    color: var(--dark);
+    margin-bottom: 0;
+}
+
+.service-item p strong {
+    font-weight: 700;
+    color: var(--secondary);
+}
