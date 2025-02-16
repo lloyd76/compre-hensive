@@ -143,7 +143,7 @@
                     <div class="overflow-hidden mb-4">
                         <img class="img-fluid" src="img/team-3.jpg" alt="">
                     </div>
-                    <div class="label label-special">Contract awarded to Laura Martinez</div>
+                    <div class="label">Contract awarded to Laura Martinez</div>
                     <p>Laura Martinez's innovative solutions secured a long-term contract.<br><strong>- Jul 25, 2025</strong></p>
                 </div>
             </div>
@@ -152,45 +152,44 @@
 </div>
 <!-- Three Boxes End -->
 
-/* Custom CSS */
-.service-item {
-    background: #FFF;
-    border: 1px solid #F1F1F1;
-    border-radius: 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-align: center;
-}
+<!-- Embedded CSS -->
+<style>
+    /* Custom CSS */
+    .service-item {
+        background: #FFF;
+        border: 1px solid #F1F1F1;
+        border-radius: 10px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        text-align: center;
+    }
 
-.service-item:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-}
+    .service-item:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
 
-.service-item .label {
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: #000000; /* Black text for labels */
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-}
+    .service-item .label {
+        background-color: #FF3E41; /* Red background for all labels */
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: white; /* White text for all labels */
+        margin-bottom: 1rem;
+        padding: 0.5rem;
+        text-align: center;
+    }
 
-.service-item .label-special {
-    background-color: #FF3E41; /* Background for Laura Martinez's label */
-    color: white; /* White text */
-    padding: 0.5rem;
-}
+    .service-item p {
+        font-size: 1rem;
+        color: #000000;
+        margin-bottom: 0;
+        text-align: center;
+    }
 
-.service-item p {
-    font-size: 1rem;
-    color: #000000;
-    margin-bottom: 0;
-    text-align: center;
-}
-
-.service-item p strong {
-    font-weight: 700;
-    color: #000000; /* Date in black */
-}
+    .service-item p strong {
+        font-weight: 700;
+        color: #000000; /* Date in black */
+    }
+</style>
         
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
