@@ -230,132 +230,40 @@
 
 
 /*** About ***/
-@media (min-width: 992px) {
-    .container.about {
-        max-width: 100% !important;
-    }
-
-    .about-text  {
-        padding-right: calc(((100% - 960px) / 2) + .75rem);
-    }
+.about-text {
+    padding-right: calc(((100% - 960px) / 2) + .75rem);
 }
 
 @media (min-width: 1200px) {
-    .about-text  {
+    .about-text {
         padding-right: calc(((100% - 1140px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1400px) {
-    .about-text  {
+    .about-text {
         padding-right: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
 
 
 /*** Feature ***/
-@media (min-width: 992px) {
-    .container.feature {
-        max-width: 100% !important;
-    }
-
-    .feature-text  {
-        padding-left: calc(((100% - 960px) / 2) + .75rem);
-    }
+.feature-text {
+    padding-left: calc(((100% - 960px) / 2) + .75rem);
 }
 
 @media (min-width: 1200px) {
-    .feature-text  {
+    .feature-text {
         padding-left: calc(((100% - 1140px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1400px) {
-    .feature-text  {
+    .feature-text {
         padding-left: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
 
-
-/*** Service, Price & Team ***/
-.service-item,
-.price-item,
-.team-item {
-    box-shadow: 0 0 45px rgba(0, 0, 0, .07);
-}
-
-.service-item img,
-.team-item img {
-    transition: .5s;
-}
-
-.service-item:hover img,
-.team-item:hover img {
-    transform: scale(1.1);
-}
-
-.service-item a.btn-slide,
-.price-item a.btn-slide,
-.team-item div.btn-slide {
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
-    font-size: 0;
-}
-
-.service-item a.btn-slide i,
-.service-item a.btn-slide span,
-.price-item a.btn-slide i,
-.price-item a.btn-slide span,
-.team-item div.btn-slide i,
-.team-item div.btn-slide span {
-    position: relative;
-    height: 40px;
-    padding: 0 15px;
-    display: inline-flex;
-    align-items: center;
-    font-size: 16px;
-    color: #FFFFFF;
-    background: var(--primary);
-    border-radius: 0 35px 35px 0;
-    transition: .5s;
-    z-index: 2;
-}
-
-.team-item div.btn-slide span a i {
-    padding: 0 10px;
-}
-
-.team-item div.btn-slide span a:hover i {
-    background: var(--secondary);
-}
-
-.service-item a.btn-slide span,
-.price-item a.btn-slide span,
-.team-item div.btn-slide span {
-    padding-left: 0;
-    left: -100%;
-    z-index: 1;
-}
-
-.service-item:hover a.btn-slide i,
-.price-item:hover a.btn-slide i,
-.team-item:hover div.btn-slide i {
-    border-radius: 0;
-}
-
-.service-item:hover a.btn-slide span,
-.price-item:hover a.btn-slide span,
-.team-item:hover div.btn-slide span {
-    left: 0;
-}
-
-.service-item a.btn-slide:hover i,
-.service-item a.btn-slide:hover span,
-.price-item a.btn-slide:hover i,
-.price-item a.btn-slide:hover span {
-    background: var(--secondary);
-}
 
 
 /*** Testimonial ***/
