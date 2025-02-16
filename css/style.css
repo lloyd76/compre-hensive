@@ -475,15 +475,21 @@
     color: var(--light);
 }
 
-/* Dark Overlay */
+/* Add styles for background overlay */
 .bg-overlay {
     position: absolute;
-    z-index: -1;
-    background-color: rgba(0, 0, 0, 0.7); /* Dark overlay with 70% opacity */
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-size: cover;
     background-position: center;
+    opacity: 1; /* Adjust for more or less visibility */
+    z-index: -1;
+}
+
+/* Styling the form box */
+.bg-light {
+    border-radius: 10px; /* Rounded corners for the form box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
